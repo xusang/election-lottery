@@ -1,0 +1,56 @@
+@b: 46.875rem;
+
+#app-wrapper {
+    width: 100%;
+}
+.source {
+    padding: 48/@b;
+}
+.none-number {
+    font-family: "PingFang SC";
+    font-size: 100/@b;
+    text-align: center;
+    color: #409EFF;
+}
+.table-wrapper {
+    margin-top: 200/@b;
+    width: 1800/@b;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "PingFang SC";
+}
+.ball-row {
+    margin-bottom: 100/@b;
+}
+.ball {
+    width: 100/@b;
+    height: 100/@b;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100/@b;
+    position: relative;
+    &.blue {
+        background-color: #f54646
+    }
+    &.red {
+        background-color: #39f
+    }
+    .number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 42/@b;
+        color: #fff
+    }
+}
+.btn-group {
+    margin-top: 200/@b;
+    margin-bottom: 300/@b;
+}
+.mr-10 {
+    margin-right: 20/@b;
+}
+.ml-30 {
+    margin-left: 60/@b;
+}
